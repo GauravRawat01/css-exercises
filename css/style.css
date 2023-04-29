@@ -1,0 +1,5 @@
+/* the whole following structure is a ruleset and every declaration is a rule */
+p {
+  color: purple; /* this is a rule or declaration */
+  font-size: 64px;
+}

@@ -1,0 +1,23 @@
+body {
+  padding: 5%;
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: blueviolet;
+}
+
+/* following is a pseudo-class */
+a:visited {
+  color: green;
+}
+a:hover,
+a:focus {
+  color: brown;
+  opacity: 0.8;
+}
+a:active {
+  color: yellow;
+}

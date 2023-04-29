@@ -1,0 +1,49 @@
+/* DRY - Don't repeat yourself */
+
+/* following is the universal selector */
+/* it sets the rules for all elements rather than acting as a parent */
+/* * {
+  font-family: monospace;
+  border: 1px solid black;
+} */
+
+body {
+  font-size: 22px;
+  background-color: papayawhip;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+h1,
+h2 {
+  color: blue;
+}
+
+p {
+  color: purple;
+}
+/* important flag overrides the following style rules after this class */
+
+p {
+  color: red;
+}
+
+.highlight {
+  text-transform: uppercase;
+  background-color: gold;
+}
+
+.gray {
+  color: gray;
+}
+
+#second {
+  font-style: italic;
+}
+
+/* class and ID selectors have more specificity so they override element proprties */

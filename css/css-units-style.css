@@ -1,0 +1,19 @@
+/* this is hard-setting the font value and user can't change the text size from browser */
+/* html {
+  font-size: 32px;
+} */
+/* * {
+  padding: 0;
+  margin: 0;
+} */
+p {
+  font-size: 1.2rem;
+  width: 40ch;
+}
+
+h1 {
+  border: 2px dashed red;
+  width: 50%;
+  padding: 10px;
+  margin: 20px;
+}
